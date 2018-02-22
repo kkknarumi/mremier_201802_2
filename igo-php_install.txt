@@ -1,0 +1,8 @@
+①igo-php 0.1.7.zipのダウンロード
+②igo-0.4.5.jarのダウンロード
+③mecab-ipadic-2.7.0-20070801.tar.gzのダウンロード
+④上記３つを一つのフォルダにまとめておく（①と③は解凍したものを配置）
+⑤④のディレクトリへ移動し、以下コマンドを実行
+java -Xmx1024m -cp igo-0.4.5.jar net.reduls.igo.bin.BuildDic ipadic mecab-ipadic-2.7.0-20070801 
+⑥実行が完了したら、ipadicフォルダとlibフォルダを同じフォルダに配置してPHPの処理に使用
+
